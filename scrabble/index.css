@@ -1,0 +1,55 @@
+body {
+
+    background: url("background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+h1 {
+    background-color: #10346e;
+    color: white;
+}
+
+.rack {
+    height: 120px;
+    width: 1200px;
+    position:fixed;
+    bottom:10px;
+ padding-left:100px;
+}
+.board{
+ padding-left:100px;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size:175%;
+}
+
+p {
+    border: 1px solid black;
+    background-color: #808080;
+    width: 100%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: black;
+    position: relative;
+}
+.pieces {
+    height: 2px;
+    width: 1200px;
+    position:fixed;
+    bottom:200px;
+    padding-left:100px;
+
+}
+
+[draggable=true] {
+    cursor: move;
+}

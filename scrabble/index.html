@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+                <div class="col-6">
+            <h1> Welcome to Ryan's Scrabble game </h1>
+          </div>
+
+    </head>
+    
+    <body>
+        <img class="board" id="board" src="Scrabble_Board_OneLine.png">
+        <div class="center_text_images">
+            <img class="rack" id="the_rack" src="scrabble-tile-holder-406774_640.png">
+           
+     </div>
+        <div class="pieces" "draggable=true">
+        
+        <script type="text/javascript">
+            // place your images in this array
+            var random_images_array = ['Scrabble_Tile_A.jpg', 'Scrabble_Tile_B.jpg', 'Scrabble_Tile_C.jpg', 'Scrabble_Tile_D.jpg','Scrabble_Tile_E.jpg','Scrabble_Tile_F.jpg','Scrabble_Tile_G.jpg','Scrabble_Tile_H.jpg','Scrabble_Tile_I.jpg','Scrabble_Tile_J.jpg','Scrabble_Tile_K.jpg','Scrabble_Tile_L.jpg','Scrabble_Tile_M.jpg','Scrabble_Tile_N.jpg','Scrabble_Tile_O.jpg','Scrabble_Tile_P.jpg','Scrabble_Tile_Q.jpg','Scrabble_Tile_R.jpg','Scrabble_Tile_S.jpg'];
+            function getRandomImage(imgAr, path) {
+                path = path || 'ScrabbleTiles/'; // default path here
+                var num = Math.floor( Math.random() * imgAr.length );
+                var img = imgAr[ num ];
+                var imgStr = '<img src="' + path + img + '" alt = "">';
+                document.write(imgStr); document.close();
+            }
+            </script>
+        <script type="text/javascript">getRandomImage(random_images_array, 'Scrabble_Tiles/')</script>
+        <script type="text/javascript">getRandomImage(random_images_array, 'Scrabble_Tiles/')</script>
+        <script type="text/javascript">getRandomImage(random_images_array, 'Scrabble_Tiles/')</script>
+        <script type="text/javascript">getRandomImage(random_images_array, 'Scrabble_Tiles/')</script>
+        <script type="text/javascript">getRandomImage(random_images_array, 'Scrabble_Tiles/')</script>
+        <script type="text/javascript">getRandomImage(random_images_array, 'Scrabble_Tiles/')</script>
+        </div>
+        
+    </body>
+    
+    
+    
+    
+</html>
