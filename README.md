@@ -1,6 +1,6 @@
 # HW5
 
-I thought this was an extremely hard project. I tried to do everything but I was only able to get random letters to be picked, displayed, and then put on the rack. I spent countless hours but I really would've liked the professor to help us a little more during class time in order to be prepared for this project.
+I thought this was an extremely hard project. I tried to do everything but I was only able to get random letters to be picked, displayed, and then put on the rack. I spent countless hours but I really would've liked the professor to help us a little more during class time in order to be prepared for this project. I commneted out a section in my js file that I dont understand why it doesn't work and would logically do what I want better than what I have currently  
 
 
 Sources:
